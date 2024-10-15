@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Modules\PSGC\Http\Controllers\CountryController;
 use Modules\PSGC\Http\Controllers\PSGCController;
 
 Route::group(attributes: [
@@ -16,3 +17,6 @@ Route::group(attributes: [
     Route::get(uri: 'barangay', action: [PSGCController::class, 'barangay'])
         ->name('barangay');
 });
+
+Route::get('country', [CountryController::class, 'index'])
+    ->name('country');
