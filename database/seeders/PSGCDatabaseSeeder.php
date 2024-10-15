@@ -40,7 +40,7 @@ class PSGCDatabaseSeeder extends Seeder
         Model::unguard();
         $file = __DIR__ . '/files/address.csv';
 
-        if (config('app.env') === 'testing') {
+        if (app()->environment('testing')) {
             $file = __DIR__ . '/files/test.csv';
         }
 
