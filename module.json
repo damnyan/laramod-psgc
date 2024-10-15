@@ -1,0 +1,11 @@
+{
+    "name": "PSGC",
+    "alias": "psgc",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PSGC\\Providers\\PSGCServiceProvider"
+    ],
+    "files": []
+}
