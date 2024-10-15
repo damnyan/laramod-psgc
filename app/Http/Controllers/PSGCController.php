@@ -13,6 +13,9 @@ use Modules\PSGC\Models\Municipality;
 use Modules\PSGC\Models\Province;
 use Modules\PSGC\Models\Region;
 
+/**
+ * @tags PSGC
+ */
 class PSGCController extends Controller
 {
         /**
